@@ -43,8 +43,8 @@ python login_insecure
 ```bash
 python login_secure.py
 ```
-   Username: admin
-   Password: StrongP@ssw0rd
+Username: admin
+Password: StrongP@ssw0rd
    
 ✅ Correct password → Login successful!
 ❌ Wrong password → Access denied! Attempts left: X
