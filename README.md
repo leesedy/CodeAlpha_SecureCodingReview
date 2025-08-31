@@ -40,9 +40,12 @@ python login_insecure
 ⚠️ Vulnerable because credentials are hardcoded and plaintext. 
 
 ## SECURE LOGIN (with fixes)
+```bash
 python login_secure.py
+```
    Username: admin
    Password: StrongP@ssw0rd
+   
 ✅ Correct password → Login successful!
 ❌ Wrong password → Access denied! Attempts left: X
 🔒 After 5 failures → Account temporarily locked.
