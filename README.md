@@ -23,11 +23,13 @@ The goal of this task is to:
 
 ## SETUP INSTRUCTIONS
 1. Clone the repository:
-   git clone https://github.com/<your-username>/CodeAlpha_SecureCodeReview.git
-cd CodeAlpha_SecureCodeReview
-2. Install dependicies:
+   ```bash
+    git clone https://github.com/<your-username>/CodeAlpha_SecureCodeReview.git
+     cd CodeAlpha_SecureCodeReview
+3. Install dependicies:
+```bash
     pip install bcrypt bandit
-
+```
 ## USAGE
 Insecure Login (for review)
 python login_insecure 
